@@ -1,0 +1,30 @@
+Test Automation Portfolio Project: Comprehensive Web Testing with Robot Framework and Browser Library
+
+Introduction:
+
+I am excited to present my test automation portfolio project,
+which showcases my proficiency in using the Robot Framework and Browser Library for web testing.
+In this project, I have focused on the practice website (https://demoqa.com/)
+which offers a comprehensive range of web elements and features to test.
+The website is organized into six subcategories:
+
+Elements
+Forms
+Alerts, Frame & Windows
+Widgets
+Interactions
+Book Store Application
+Each subcategory presents unique challenges and opportunities to demonstrate my expertise
+in handling various types of web objects and interactions. To exhibit the depth of my knowledge and skills,
+I have created test automation cases for each subcategory.
+
+The goal of this project is to validate the functionality and usability of the website's features
+and ensure they meet the highest quality standards. Through the implementation of Robot Framework
+and Browser Library, I aim to achieve a high level of test coverage, maintainability, and reusability.
+
+By following industry best practices for test automation, this project highlights my ability
+to create well-structured, efficient, and robust test scripts that can cater to diverse web testing scenarios.
+I look forward to showcasing my test automation capabilities and the value I can bring to any organization or project.
+
+Please enjoy exploring my test automation portfolio project,
+and don't hesitate to reach out with any questions or feedback.
