@@ -1,0 +1,49 @@
+Test Automation Portfolio Project: Comprehensive Web Testing with Robot Framework and Browser Library
+
+Test Plan: Text Box Validation
+
+Objective:
+To validate the functionality and user experience of the text boxes on the practice website (https://demoqa.com/),
+specifically focusing on the Full Name, Email, Current Address, and Permanent Address input fields.
+The test plan will ensure that the fields can handle various input scenarios and that the submit button displays the correct output format.
+
+Test Scenarios:
+
+Empty input fields
+
+Description: Submit the form with all input fields left empty
+Expected Result: The output section should not display any text
+Input only in Full Name field
+
+Description: Enter a name in the Full Name field, leaving other fields empty, and submit the form
+Expected Result: The output section should display the name with the correct label (Name: [Full Name])
+Input only in Email field with a valid email address
+
+Description: Enter a valid email address in the Email field, leaving other fields empty, and submit the form
+Expected Result: The output section should display the email address with the correct label (Email: [Email])
+Input only in Email field with an invalid email address
+
+Description: Enter an invalid email address in the Email field, leaving other fields empty, and submit the form
+Expected Result: The form should display an error message indicating that the email format is incorrect
+Input only in Current Address field
+
+Description: Enter text in the Current Address field, leaving other fields empty, and submit the form
+Expected Result: The output section should display the current address with the correct label (Current Address: [Current Address])
+Input only in Permanent Address field
+
+Description: Enter text in the Permanent Address field, leaving other fields empty, and submit the form
+Expected Result: The output section should display the permanent address with the correct label (Permanent Address: [Permanent Address])
+Input in all fields with a valid email address
+
+Description: Fill in all input fields with valid information and submit the form
+Expected Result: The output section should display all entered information with the correct labels
+Input in all fields with an invalid email address
+
+Description: Fill in all input fields with valid information, except for an invalid email address, and submit the form
+Expected Result: The form should display an error message indicating that the email format is incorrect
+Long input in all fields
+
+Description: Enter a long string of text in each input field (exceeding typical input length) and submit the form
+Expected Result: The output section should display all entered information with the correct labels, without any truncation or loss of data
+Test Execution:
+The test plan will be executed using the Robot Framework and Browser Library, following best practices for test automation. The test scripts will be written in a modular and maintainable manner, allowing for easy modification and expansion in the future.
